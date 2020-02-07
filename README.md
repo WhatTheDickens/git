@@ -1,46 +1,31 @@
-# Git and GitHub for Project Management
+# Introduction to Git and GitHub
 
-**Git** is software for *distributed version control*. When you use Git to manage the files in a project, you're essentially taking snapshots of those files as you make changes to them. Doing this enables you to track back through the history of your changes, understand that history, and return to an earlier state of the project whenever necessary.
+Git is version control software used to track the state of files associated with a project. Users can take snapshots of files, travel through the history of a project, collaborate transparently with others, and easily keep compatible data in many locations. Combined with GitHub, a cloud service, Git also becomes a way of finding and publishing text, including writing and code.
 
-The *distributed* aspect of Git distinguishes it from many other version control systems. Git permits multiple users to maintain copies of a project on their own machines, work on the project files offline, then push their changes to a shared file repository in a way that avoids conflicts between different users' changes.
+In this session, we'll learn what makes Git such a powerful tool for both collaborative and individual projects. We will share a conceptual overview of Git and GitHub, explore fundamental concepts such as committing and pushing, and explore practical applications of GitHub for writing and coding. This session will show how to use Git and GitHub for a variety of digital undertakings, including collaborating with others, finding code for use in your projects, and sharing your work publicly. This session covers initializing Git repositories, committing changes, pushing to GitHub, and cloning repositories to your local machine.
 
-Finally, Git makes it easy to make someone else's project the starting point for your own. This workshop was [forked](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) from <https://github.com/DHRI-Curriculum>, a workshop created by folks at the CUNY Graduate Center's [GC Digital Initiatives](https://gcdi.commons.gc.cuny.edu/about/).
+To complete this workshop, you will need to have VS Code and Git installed on your local machine. If you have not installed them already, follow [this link to instructions for VS Code](https://github.com/DHRI-Curriculum/install/blob/master/sections/vscode.md), and [this link to instructions for Git](https://github.com/DHRI-Curriculum/install/blob/master/sections/git.md).
 
-All these features of Git make it an attractive way to collaborate transparently on projects large and small.
-
-Some common uses for Git include:
-
-- developing software
-- sharing data sets
-- creating websites
-- writing articles and books
-- collating online resources
-- keeping research notes
-- hosting syllabi and course materials
-
-This workshop will offer a high-level overview of Git and its related cloud-based service **GitHub**, emphasizing a few of the ways they can be useful to DH projects. Although Git's most powerful features are available only when it's used via the [command line](https://en.wikipedia.org/wiki/Command-line_interface), we'll do our work today from Git's web interface, an easier place to start.
-
-To use the web interface you'll need to create an account on GitHub. If you want to participate in the hands-on portion of this workshop but you haven't yet created an account on GitHub, you should [do that now](https://github.com).
-
-[Get Started >>>](sections/reposforks.md)  
-[Glossary](glossary.md)  
-[Cheat Sheet](git-cheat-sheet.pdf)  
+[Get Started >>>](sections/concept.md)  
+[Glossary >>>](https://github.com/DHRI-Curriculum/glossary/blob/master/sections/git.md#git)  
 
 -----
 
-[Repos and Forks](sections/reposforks.md)    
-[Sandbox](sections/sandbox.md)  
-[Branching](sections/branching.md)  
-[Creating a File](sections/createfile.md)   
-[Markdown](sections/mrkdwn.png)   
-[Initiating a Pull Request](sections/pullrequest.md)   
-[Reviewing a Pull Request](sections/reviewpull.md)  
-[Summary](sections/final.md)   
-[DH Examples](sections/dhexamples.md)
+[What are Git, GitHub and Markdown?](sections/concept.md)  
+[What You Can Do with Git and GitHub](sections/examples.md)  
+[Review of the Command Line](sections/commandline.md)  
+[Setting Up Git](sections/gitconfig.md)  
+[Creating a Syllabus with Markdown](sections/markdown.md)  
+[Staging and Committing Changes](sections/gitaction.md)  
+[Pushing to GitHub](sections/github.md)  
+[Cloning ](sections/cloning.md)  
+[Challenges](sections/challenge.md)  
+[Summary](sections/summary.md)  
+[Resources](sections/resources.md)  
 
 -----
 
-Session Developers: Paul Schacht, William Jones, Kirk Anne  
+Session Leader: Patrick Sweeney  
 Based on previous work by Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh  
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
